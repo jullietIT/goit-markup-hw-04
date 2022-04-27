@@ -180,8 +180,9 @@ height: 16px;
   display: block;
   padding:  32px 0;
   color:var(--title-text-color);
+
   display: flex;
-align-items: center;
+  align-items: center;
 
  }
 .mail,
@@ -216,7 +217,9 @@ align-items: center;
    padding: 200px 0;
    margin: 0 auto;
    color: var(--accent-color);
+
   max-width: 1600px; 
+  margin: 0 auto;
   text-align: center;
  background-position: center;
 
@@ -275,8 +278,7 @@ text-align: center;
 }
 .features-link{
   display: flex;
-  width: 70px;
-  height: 70px;;
+
   justify-content: center;
 }
 
@@ -405,8 +407,6 @@ display: flex;
 align-items: center;
 justify-content:center;
 
-
-padding: 0;
   }
  
 .icon-list{
@@ -422,11 +422,12 @@ height: 44px;
 
 .icon-hover{
   display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
   height: 100%;
-  justify-content: center;
   color:var(--color-icon);
-  align-items: center;
   border-radius: 50px;
 }
     
@@ -467,12 +468,13 @@ height: 92px;
  
 .company-list:hover,
 .company-list:focus{
-  border: 1px solid var(--logo-color);
+
 }
 .company-clients:hover,
 .company-clients:focus{ 
   fill: currentColor;
 color:var(--logo-color);
+border: 1px solid var(--logo-color);
 
 } 
 
@@ -560,10 +562,7 @@ button:focus {
   }
   .project-link{
     display: block;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    
+ 
   }
 
 .flex-project{
@@ -603,9 +602,9 @@ border-left: 1px solid #EEEEEE;
 
 }
 
-.flex-project:hover,
-.flex-project:focus{
-  background: #FFFFFF;
+.project-link:hover,
+.project-link:focus{
+background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -636,6 +635,7 @@ margin-top: 4px;
 
 .container-footer{
 display: flex;
+align-items:baseline;
 }
 
 .address{
@@ -685,7 +685,7 @@ display: flex;
 }
 .footer-icon{
     /* display: column; */
-    align-items:baseline;
+   
     align-items: center; 
     justify-content: center; 
      flex-direction:column;
@@ -702,7 +702,7 @@ display: flex;
  .icon-footer{
 display: flex;
 align-items: center;
-justify-content:center; 
+
 
 
 
